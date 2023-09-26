@@ -5,64 +5,126 @@ body {
     text-align: center;
 }
 * {
+    font-family: '나눔스퀘어라운드', '맑은 고딕', '돋움',sans-serif;
     margin: 0 auto;
+    list-style: none;
+    text-decoration: none;
 }
 
-/** header **/
+/******* header *******/
 header {
     background-color: #8EACCD;
     height: 61px; 
     position: sticky; top: 0;
 }
 
-/** main **/
+/****** main *******/
+
+/** contents **/
 .contents {
     height: 896px;
     background-color: #F9F3CC;
     background-image: url(./images/hero-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    color: #FFF;
+    
 }
+.contents > ul > li > h3 {
+    text-transform: uppercase;
+    font-size: 36px;
+}
+.contents > ul > li > p {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+/** tabSection **/
 .tabSection {
     height: 594.78px;
     background-color: #D7E5CA;
 }
+.tabSection > .image1 > #img {
+    width: 334px; height: 287px;
+    border-radius: 42px;
+}
+
+
+/** service **/
 .service {
+    padding-left: 0px;
     height: 1915.39px;
     background-color: #D2E0FB;
 }
+.service > ul > li {
+    border: #8EACCD 2px solid; border-radius: 50px;
+    width: 333.09px; height: 202.04px;
+    margin-top: 30px; 
+}
+.service > ul {
+    padding: 0; 
+}
+/** multiPopup **/
 .multiPopup {
     height: 687.28px;
     background-color: #EF9595;
 }
 .multiPopup > ul > li > #img {
-    width: 200px; height: 150px;
+    width: 334px; height: 213px;
+    border-radius: 52px;
 }
+
+/** mockup **/
 .mockup {
     height: 733.69px;
     background-color: #DBC4F0;
 }
 .mockup > .image2 > #img {
-    width: 500px; height: 450px;
+    width: 333px; height: 317px;
 }
+
+/** notice **/
 .notice {
     height: 684.58px;
     background-color: #FAF4B7;
 }
 .notice > ul > li > #img {
-    width: 200px; height: 150px;
+    width: 143px; height: 123px;
+    border-radius: 30px;
 }
+
+/** mapSection **/
 .mapSection {
     height: 1074.53px;
     background-color: #FFCACC;
 }
 .mapSection > #map_img {
-    width: 500px; height: 450px;
+    width: 332px; height: 398px;
+    border-radius: 40px;
 }
+
+/** conteactUs **/
 .conteactUs {
     height: 1006.69px;
     background-color: #CDF0EA;
 }
-/** footer **/
+.conteactUs > form > input {
+    width: 332px; height: 35.45px;
+}
+.conteactUs > form > textarea {
+    width: 332px; height: 218.9;
+}
+.conteactUs > form > button {
+    width: 332px; height: 49.63px;
+    background-color: #303030;
+    color: #FFF;
+    font-weight: bold;
+} 
+
+/******* footer ********/
 address {
-    height: 186.56px;
     background-color: #EFD595;
+    width: 100%; height: 188.56px;
 }
