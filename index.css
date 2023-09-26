@@ -16,40 +16,53 @@ header {
 }
 
 /** main **/
-.box1 {
+.contents {
     height: 896px;
     background-color: #F9F3CC;
+    background-image: url(./images/hero-1.jpg);
 }
-.box2 {
+.tabSection {
     height: 594.78px;
     background-color: #D7E5CA;
 }
-.box3 {
+.service {
     height: 1915.39px;
     background-color: #D2E0FB;
 }
-.box4 {
+.multiPopup {
     height: 687.28px;
     background-color: #EF9595;
 }
-.box5 {
+.multiPopup > ul > li > #img {
+    width: 200px; height: 150px;
+}
+.mockup {
     height: 733.69px;
     background-color: #DBC4F0;
 }
-.box6 {
+.mockup > .image2 > #img {
+    width: 500px; height: 450px;
+}
+.notice {
     height: 684.58px;
     background-color: #FAF4B7;
 }
-.box7 {
+.notice > ul > li > #img {
+    width: 200px; height: 150px;
+}
+.mapSection {
     height: 1074.53px;
     background-color: #FFCACC;
 }
-.box8 {
+.mapSection > #map_img {
+    width: 500px; height: 450px;
+}
+.conteactUs {
     height: 1006.69px;
     background-color: #CDF0EA;
 }
 /** footer **/
-footer {
+address {
     height: 186.56px;
     background-color: #EFD595;
 }
