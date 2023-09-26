@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+body {
+    margin: 0; padding: 0;
+    text-align: center;
+}
+* {
+    margin: 0 auto;
+}
+
+/** header **/
+header {
+    background-color: #8EACCD;
+    height: 61px; 
+    position: sticky; top: 0;
+}
+
+/** main **/
+.box1 {
+    height: 896px;
+    background-color: #F9F3CC;
+}
+.box2 {
+    height: 594.78px;
+    background-color: #D7E5CA;
+}
+.box3 {
+    height: 1915.39px;
+    background-color: #D2E0FB;
+}
+.box4 {
+    height: 687.28px;
+    background-color: #EF9595;
+}
+.box5 {
+    height: 733.69px;
+    background-color: #DBC4F0;
+}
+.box6 {
+    height: 684.58px;
+    background-color: #FAF4B7;
+}
+.box7 {
+    height: 394.98px;
+    background-color: #FFCACC;
+}
+.box8 {
+    height: 1006.69px;
+    background-color: #CDF0EA;
+}
+/** footer **/
+footer {
+    height: 186.56px;
+    background-color: #EFD595;
+}
