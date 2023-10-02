@@ -281,6 +281,18 @@ header > a > .material-symbols-outlined {
     padding: 14.4px;
     border-bottom: #bbbbbb solid 1px
 }
+.notice > .not > .add > a > .material-symbols-outlined {
+    color: #000; margin-left: 246.62px;
+}
+.notice >.not > .add {
+    display: flex;
+}
+.notice > .gallery > .add > a > .material-symbols-outlined {
+    color: #000; margin-left: 268.47px; padding-top: 20px;
+}
+.notice > .gallery > .add {
+    display: flex;
+}
 
 /** mapSection **/
 .mapSection {
