@@ -329,16 +329,16 @@ header > a > .material-symbols-outlined {
 }
 .conteactUs > form > input {
     width: 358px; height: 44.5px;
-    border: transparent;
-    
+    border: none;
     background-color: #ECECEC;
+
 }
 .conteactUs > form {
-    padding: 0 12px;
+    padding: 0 10px;
 }
 .conteactUs > form > textarea {
     width: 358px; height: 300px;
-    border: transparent;
+    border: none;
     background-color: #ECECEC;
 }
 .conteactUs > form > button {
